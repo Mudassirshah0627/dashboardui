@@ -11,14 +11,16 @@ import { NavLink } from "react-router-dom";
 
 function SlideHeader() {
   return (
-    <div>
+    <div className="hidden md:flex flex-col">
       <div className="flex items-center gap-x-2">
         <div className="w-[50px] h-[50px]">
           <img className="h-full w-full" src={Images.profile} />
         </div>
         <div className="flex flex-col text-sm">
           <h1 className="font-semibold">Samantha</h1>
-          <p className="text-xs text-gray-400">+998 (99) 436-46-15</p>
+          <p className="text-[10px] lg:text-sm text-gray-400">
+            +998 (99) 436-46-15
+          </p>
         </div>
       </div>
       <div className="mt-6 flex flex-col gap-y-4">

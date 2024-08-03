@@ -8,9 +8,9 @@ function SaudiELeagues() {
     <div className="px-6 pt-6">
       {/*top header */}
       <div className="flex justify-between w-full border-b pb-4">
-        <div className="w-1/2 flex items-center gap-x-4">
+        <div className="md:w-1/2 flex items-center gap-x-4">
           <IoMdMenu className="text-xl" />
-          <h1 className="text-xl">Good morning, Mudasir</h1>
+          <h1 className="text-base md:text-xl">Good morning, Mudasir</h1>
         </div>
         <LuLogOut className="text-2xl" />
       </div>
@@ -20,7 +20,7 @@ function SaudiELeagues() {
 
         {/*CARDS */}
 
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid lg:grid-cols-2 gap-6">
           <div className="px-2 flex gap-x-2 py-2  border   bg-gray-100">
             <img className="w-[55px] h-full" src={Images.MajorsIcon} />
             <div className="bg-secondary p-2 w-full rounded-md flex justify-between items-center">
