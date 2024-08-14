@@ -3,7 +3,7 @@ import SlideHeader from "../components/slideHeader";
 
 function Dashboard() {
   return (
-    <div className=" bg-primary p-4 h-screen flex ">
+    <div className=" bg-primary pr-4 py-4 h-screen flex ">
       <div className="md:w-[20vw] bg-primary text-secondary">
         <SlideHeader />
       </div>
