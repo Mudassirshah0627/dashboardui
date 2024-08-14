@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import SlideHeader from "./slideHeader";
+import SlideHeader from "../components/slideHeader";
 
 function Dashboard() {
   return (

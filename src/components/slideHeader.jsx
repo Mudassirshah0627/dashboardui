@@ -44,17 +44,26 @@ function SlideHeader() {
           <FaUserClock className="text-[20px]" />
           <h1 className="text-sm">Rides</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-x-3 cursor-pointer">
+        <NavLink
+          className="flex items-center gap-x-3 cursor-pointer"
+          to="players"
+        >
           <PiUsersThreeLight className="text-[20px]" />
-          <h1 className="text-sm">Clients</h1>
+          <h1 className="text-sm">Players</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-x-3 cursor-pointer">
+        <NavLink
+          to="orders"
+          className="flex items-center gap-x-3 cursor-pointer"
+        >
           <FaUserNurse className="text-[20px]" />
-          <h1 className="text-sm">Drivers</h1>
+          <h1 className="text-sm">Orders</h1>
         </NavLink>
-        <NavLink className="flex items-center gap-x-3 cursor-pointer">
+        <NavLink
+          className="flex items-center gap-x-3 cursor-pointer"
+          to="leagues"
+        >
           <CiDollar className="text-[20px]" />
-          <h1 className="text-sm">Shift</h1>
+          <h1 className="text-sm">Leagues</h1>
         </NavLink>
         <NavLink className="flex items-center gap-x-3 cursor-pointer">
           <TbWorldShare className="text-[20px]" />
